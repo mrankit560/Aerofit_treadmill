@@ -1,57 +1,60 @@
-# Aerofit: Descriptive Statistics & Probability Analysis
+# Treadmill Usage and Performance Analysis
 
-## About Aerofit
-Aerofit is a leading brand in fitness equipment, offering a range of products including treadmills, exercise bikes, gym equipment, and fitness accessories to meet diverse customer needs.
+## Overview
+This project provides an in-depth analysis of treadmill usage and performance metrics for a leading fitness equipment company. The objective is to leverage descriptive statistics and probability analysis to understand user behavior, optimize product features, and enhance customer satisfaction.
 
-## Business Problem
-The Aerofit market research team aims to identify the characteristics of the target audience for each type of treadmill. This analysis will help Aerofit provide better recommendations to new customers based on customer profiles.
+## Problem Statement
+The aim of this analysis is to uncover trends and patterns in treadmill usage among consumers. By understanding user performance and preferences, the insights derived can assist the company in refining its product offerings and marketing strategies.
 
-## Project Objective
-Perform descriptive analytics to create a customer profile for each Aerofit treadmill product, including KP281, KP481, and KP781 models. The analysis will involve:
-- Constructing two-way contingency tables
-- Calculating conditional and marginal probabilities
-- Providing insights for targeted business recommendations
+## Dataset Overview
+The dataset consists of treadmill usage data, including the following attributes:
+- **User ID**: Unique identifier for each user.
+- **Age**: Age of the user.
+- **Gender**: Gender of the user.
+- **Workout Duration**: Duration of each treadmill session in minutes.
+- **Calories Burned**: Number of calories burned during the session.
+- **Heart Rate**: Average heart rate during the workout.
+- **Speed**: Average speed maintained during the session.
+- **Incline**: Incline level used during the workout.
+- **Date of Workout**: Date on which the workout occurred.
 
-## Dataset
-Data was collected from individuals who purchased a treadmill from Aerofit stores over the last three months. The dataset contains information on:
-- **Product Purchased**: KP281, KP481, KP781
-- **Age**: Customer's age in years
-- **Gender**: Male or Female
-- **Education**: Years of education
-- **Marital Status**: Single or partnered
-- **Usage**: Average treadmill usage per week
-- **Income**: Annual income in USD
-- **Fitness**: Self-rated fitness on a 1-to-5 scale
-- **Miles**: Average miles expected to walk/run per week
+## Analysis Objectives
+The analysis aims to address key questions that inform product development and customer engagement strategies:
+- What are the average workout durations and calories burned by different demographics?
+- How does age and gender influence treadmill performance metrics?
+- Are there trends in treadmill usage over time?
+- What are the most common speed and incline settings among users?
+- How do performance metrics vary across different user segments?
 
-[Dataset Link](Aerofit_treadmill.csv)
+## Methodology
+1. **Data Cleaning**: Preparing the dataset by addressing missing values and ensuring consistency in formats.
+2. **Descriptive Statistics**: Calculating mean, median, mode, and standard deviation for relevant performance metrics.
+3. **Probability Analysis**: Applying probability distributions to understand the likelihood of different user performance outcomes.
+4. **Visualization**: Utilizing visual tools to present findings clearly and effectively.
 
-## Product Portfolio
-- **KP281**: Entry-level treadmill, $1,500
-- **KP481**: Mid-range treadmill, $1,750
-- **KP781**: Advanced treadmill, $2,500
-
-## Key Insights
-- **Customer Preferences**: KP281 was the most popular treadmill (44%), followed by KP481 (33%) and KP781 (22%).
-- **Demographics**: Most customers were aged 20-30 (80%); 57.8% were male, and 59.4% were partnered.
-- **Income and Product Choice**: Higher-income customers (average income $75,441) preferred the KP781, while younger and lower-income individuals opted for KP281 and KP481.
-- **Fitness Ratings**: Customers with a fitness rating of 5/5 predominantly chose the KP781 model.
-- **Usage Patterns**: Usage varied from 2-7 times per week, with 70% of users exercising 3-4 times weekly.
-- **Outliers**: Income and miles run showed significant variability, indicating diverse customer profiles.
-
-## Technology Stack
-- **Python**: For data analysis and visualization
-- **Libraries Used**: pandas, NumPy, Seaborn
-
-## Skills Utilized
-- Python (Programming Language)
-- pandas
-- NumPy
-- Seaborn
+## Insights
+- The analysis revealed that younger users (ages 18-30) tend to have higher workout durations and calories burned compared to older age groups.
+- Gender differences were observed, with male users typically maintaining higher speeds and inclines during workouts than female users.
+- A notable trend was identified in workout frequency, with an increase in treadmill usage during the winter months.
 
 ## Recommendations
-Based on this analysis, Aerofit can:
-1. **Target High-Income Individuals**: Promote KP781 to high-income customers who prioritize advanced features.
-2. **Optimize Marketing for Younger Demographics**: Highlight KP281 and KP481 in ads targeting younger, budget-conscious customers.
-3. **Focus on Customer Fitness Goals**: Provide tailored marketing for customers with high fitness ratings.
+Based on the analysis, the following recommendations are proposed:
+1. **Targeted Marketing Campaigns**: Develop marketing strategies that cater to different demographics, particularly focusing on younger audiences who exhibit higher engagement with treadmill usage.
+2. **Product Feature Enhancements**: Consider incorporating features that address user preferences, such as customizable speed and incline settings, based on observed usage patterns.
+3. **Seasonal Promotions**: Implement seasonal promotions during periods of increased treadmill usage to boost sales and customer engagement.
+4. **User Education and Support**: Provide resources that educate users on optimizing their treadmill workouts, potentially increasing user satisfaction and retention.
 
+## Technologies Used
+- **Python**: For data analysis and visualization.
+- **Libraries**: pandas, NumPy, Matplotlib, Seaborn.
+
+## How to Use This Repository
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/repository-name.git
+   ```
+2. Open the Jupyter notebook (`Treadmill_Analysis.ipynb`) to explore the analysis and insights derived from the dataset.
+3. Review the dataset file (`treadmill_data.csv`) for a detailed view of the performance metrics used in the analysis.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
