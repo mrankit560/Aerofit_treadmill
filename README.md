@@ -17,6 +17,7 @@ The dataset consists of treadmill usage data, including the following attributes
 - **Speed**: Average speed maintained during the session.
 - **Incline**: Incline level used during the workout.
 - **Date of Workout**: Date on which the workout occurred.
+- [Dataset Link](https://github.com/mrankit560/Treadmill-Usage-and-Performance-Analysis/blob/main/treadmill_data.csv)
 
 ## Analysis Objectives
 The analysis aims to address key questions that inform product development and customer engagement strategies:
