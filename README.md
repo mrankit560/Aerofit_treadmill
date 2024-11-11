@@ -1,5 +1,5 @@
 # Treadmill Usage and Performance Analysis
- 
+
 ## Overview
 This project provides an in-depth analysis of treadmill usage and performance metrics for a leading fitness equipment company. The objective is to leverage descriptive statistics and probability analysis to understand user behavior, optimize product features, and enhance customer satisfaction.
 
